@@ -9,6 +9,6 @@ simple_faucet = "0caf2336f8337c6d9c2e866bdc88a48e4eee83db3396247dc993f1430666199
 simple_faucet_deployer = "e7e15316f6ce206795a4c531105e54737d9b66411daf2fdf4d03f2e9444ab078"
 
 [dependencies.AptosFramework]
-git = "https://github.com/aptos-labs/aptos-core.git"
+git = "https://github.com/aptos-labs/aptos-framework.git"
 rev = "mainnet"
-subdir = "aptos-move/framework/aptos-framework"
+subdir = "aptos-framework"
