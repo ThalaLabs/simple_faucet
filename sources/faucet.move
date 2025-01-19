@@ -1,14 +1,11 @@
 module simple_faucet::faucet {
     use std::option::Option;
     use std::signer;
-    use std::string;
-    use std::string::String;
+    use std::string::{Self, String};
     use std::vector;
     use aptos_framework::event;
-    use aptos_framework::fungible_asset;
-    use aptos_framework::fungible_asset::{Metadata, MintRef, BurnRef, TransferRef};
-    use aptos_framework::object;
-    use aptos_framework::object::Object;
+    use aptos_framework::fungible_asset::{Self, Metadata, MintRef, BurnRef, TransferRef};
+    use aptos_framework::object::{Self, Object};
     use aptos_framework::primary_fungible_store;
 
     const ERR_FAUCET_NOT_EXIST: u64 = 1;
